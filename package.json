@@ -1,11 +1,10 @@
 {
-  "name": "angular-electron",
-  "version": "7.0.1",
-  "description": "Angular 9 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "aegcc",
+  "version": "1.0.0",
+  "description": "AEGCC - an Angular Electron utility for Git Conventional Commits",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Luca Giuberti",
+    "email": "luca.giuberti@yahoo.com"
   },
   "keywords": [
     "angular",
