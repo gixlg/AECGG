@@ -8,16 +8,25 @@ import { SharedModule } from '../shared/shared.module';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+
+import { CommitTypeComponent } from './commit-type/commit-type.component';
+import { CommitMessageComponent } from "./commit-message/commit-message.component";
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [
+    HomeComponent,
+    CommitMessageComponent,
+    CommitTypeComponent
+  ],
   imports: [
     CommonModule,
     SharedModule,
     HomeRoutingModule,
     MatSliderModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatSelectModule
   ]
 })
 export class HomeModule {}
