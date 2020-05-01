@@ -13,6 +13,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { CommitScopeComponent } from './commit-scope/commit-scope.component';
 import { CommitTypeComponent } from './commit-type/commit-type.component';
 import { CommitMessageComponent } from "./commit-message/commit-message.component";
+import { CommitDescriptionComponent } from './commit-description/commit-description.component';
+import {MatDividerModule} from "@angular/material/divider";
+import {MatListModule} from "@angular/material/list";
+
 
 
 @NgModule({
@@ -20,7 +24,8 @@ import { CommitMessageComponent } from "./commit-message/commit-message.componen
     HomeComponent,
     CommitMessageComponent,
     CommitTypeComponent,
-    CommitScopeComponent
+    CommitScopeComponent,
+    CommitDescriptionComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +34,9 @@ import { CommitMessageComponent } from "./commit-message/commit-message.componen
     MatSliderModule,
     MatInputModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatDividerModule,
+    MatListModule
   ]
 })
 export class HomeModule {}
