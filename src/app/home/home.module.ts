@@ -14,8 +14,9 @@ import { CommitScopeComponent } from './commit-scope/commit-scope.component';
 import { CommitTypeComponent } from './commit-type/commit-type.component';
 import { CommitMessageComponent } from "./commit-message/commit-message.component";
 import { CommitDescriptionComponent } from './commit-description/commit-description.component';
-import {MatDividerModule} from "@angular/material/divider";
-import {MatListModule} from "@angular/material/list";
+import { MatDividerModule } from "@angular/material/divider";
+import { MatListModule } from "@angular/material/list";
+import { CommitBodyComponent } from "./commit-body/commit-body.component";
 
 
 
@@ -25,7 +26,8 @@ import {MatListModule} from "@angular/material/list";
     CommitMessageComponent,
     CommitTypeComponent,
     CommitScopeComponent,
-    CommitDescriptionComponent
+    CommitDescriptionComponent,
+    CommitBodyComponent
   ],
   imports: [
     CommonModule,
