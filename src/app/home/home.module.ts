@@ -20,6 +20,9 @@ import { CommitBodyComponent } from "./commit-body/commit-body.component";
 import {CommitFootersComponent} from "./commit-footers/commit-footers.component";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
+import {MatStepperModule} from "@angular/material/stepper";
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
 
 
 
@@ -45,7 +48,11 @@ import {MatAutocompleteModule} from "@angular/material/autocomplete";
     MatListModule,
     FormsModule,
     ReactiveFormsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatStepperModule,
+    MatButtonModule,
+    MatIconModule
+
   ]
 })
 export class HomeModule {}
