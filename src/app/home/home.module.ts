@@ -17,6 +17,9 @@ import { CommitDescriptionComponent } from './commit-description/commit-descript
 import { MatDividerModule } from "@angular/material/divider";
 import { MatListModule } from "@angular/material/list";
 import { CommitBodyComponent } from "./commit-body/commit-body.component";
+import {CommitFootersComponent} from "./commit-footers/commit-footers.component";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatAutocompleteModule} from "@angular/material/autocomplete";
 
 
 
@@ -27,7 +30,8 @@ import { CommitBodyComponent } from "./commit-body/commit-body.component";
     CommitTypeComponent,
     CommitScopeComponent,
     CommitDescriptionComponent,
-    CommitBodyComponent
+    CommitBodyComponent,
+    CommitFootersComponent
   ],
   imports: [
     CommonModule,
@@ -38,7 +42,10 @@ import { CommitBodyComponent } from "./commit-body/commit-body.component";
     MatFormFieldModule,
     MatSelectModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatAutocompleteModule
   ]
 })
 export class HomeModule {}

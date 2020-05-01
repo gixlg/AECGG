@@ -1,4 +1,4 @@
-<form class="example-form">
+<form class="example-form" [formGroup]="form">
   <mat-list>
     <mat-list-item>
       <app-commit-type></app-commit-type>
@@ -11,6 +11,10 @@
     <mat-divider></mat-divider>
     <mat-list-item>
       <app-commit-body></app-commit-body>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      <app-commit-footers></app-commit-footers>
     </mat-list-item>
   </mat-list>
 
