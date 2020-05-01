@@ -10,14 +10,17 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 
+import { CommitScopeComponent } from './commit-scope/commit-scope.component';
 import { CommitTypeComponent } from './commit-type/commit-type.component';
 import { CommitMessageComponent } from "./commit-message/commit-message.component";
+
 
 @NgModule({
   declarations: [
     HomeComponent,
     CommitMessageComponent,
-    CommitTypeComponent
+    CommitTypeComponent,
+    CommitScopeComponent
   ],
   imports: [
     CommonModule,
